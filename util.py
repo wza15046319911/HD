@@ -1,0 +1,7 @@
+WEIBO_MAX_PAGE_XPATH = '//div[@class="m-page"]//span[@class="list"]/ul/li[last()]//text()'
+WEIBO_LIKES_XPATH = '//div[@class="card"]/div[@class="card-act"]//ul//li[4]//text()'
+WEIBO_COMMENT_XPATH = '//div[@class="card"]/div[@class="card-act"]//ul//li[3]//text()'
+WEIBO_FORWARD_XPATH = '//div[@class="card"]/div[@class="card-act"]/ul/li[2]//text()'
+USER_URL_XPATH = '//div[@class="content"]/div[@class="info"]/div[2]/a/@href'
+USER_POST_CONTENT = 'p[@node-type="feed_list_content"]/text()'
+IMAGE_SOURCE_XPATH = '//div[@class="content"]/div[@node-type="feed_list_media_prev"]/div[@node-type="fl_pic_list"]/ul/li/img/@src'
